@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net core\\CheckboxRadio\\RunnerModel\\RunnerModel.csproj",
+      "projectUniqueName": "C:\\Users\\Faizi Raza\\Desktop\\HomeProject\\backend\\CheckboxRadio\\RunnerModel\\RunnerModel.csproj",
       "projectName": "RunnerModel",
-      "projectPath": "D:\\.net core\\CheckboxRadio\\RunnerModel\\RunnerModel.csproj",
+      "projectPath": "C:\\Users\\Faizi Raza\\Desktop\\HomeProject\\backend\\CheckboxRadio\\RunnerModel\\RunnerModel.csproj",
       "packagesPath": "C:\\Users\\Faizi Raza\\.nuget\\packages\\",
-      "outputPath": "D:\\.net core\\CheckboxRadio\\RunnerModel\\obj\\",
+      "outputPath": "C:\\Users\\Faizi Raza\\Desktop\\HomeProject\\backend\\CheckboxRadio\\RunnerModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -33,7 +33,7 @@ namespace CheckboxRadio.Controllers
                 string Generes = string.Join(",", GeneresList);
                 userView.Generes = Generes;
                 var result = _book.MyBook(userView);
-                // var res = _book.GetBookDetails();
+                //var res = _book.GetBookDetails();
                    return RedirectToAction("GetDetails");
                 
             }
