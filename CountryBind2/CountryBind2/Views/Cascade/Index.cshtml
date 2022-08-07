@@ -1,0 +1,47 @@
+﻿@model CountryBind2.ModelViews.CountryViews
+@{
+    ViewData["Title"] = "Index";
+    
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<h1>Index</h1>
+<div>
+    <label>Country</label>
+    </div>
+        @*<select  class="form-control col-6" id="country">
+            <option>
+                Select Country
+            </option>
+        </select>*@
+        @Html.DropDownListFor(x=>x.Country_Name,new SelectList(Model.countries,"id", "Country_Name"))
+        <div>
+            <label>State</label>
+             @Html.DropDownListFor(x=>x.State_Name, new SelectList(Model.states,"state_id","StateName"))
+
+        </div>
+       
+        <select id="ddlCountry" name="Country_Name">
+            <option value="-1">Select Country</option>
+        </select>
+   
+
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Cascade/GetCountry',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                var abc=""
+                for (var i = 0; i <= data.countries.length-1; i++) {
+                    abc += '<option value=" ' + data.countries[i].id + '">' + data.countries[i].countryName + '</option>';
+                }
+                $('#ddlCountry').html(abc);
+            },
+            error: function () {
+                alert('Error!');
+            }
+        });
+    })
+</script>

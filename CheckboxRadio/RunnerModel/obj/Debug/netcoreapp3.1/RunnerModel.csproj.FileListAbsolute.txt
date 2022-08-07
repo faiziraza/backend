@@ -1,0 +1,9 @@
+D:\.net core\CheckboxRadio\RunnerModel\bin\Debug\netcoreapp3.1\RunnerModel.deps.json
+D:\.net core\CheckboxRadio\RunnerModel\bin\Debug\netcoreapp3.1\RunnerModel.dll
+D:\.net core\CheckboxRadio\RunnerModel\bin\Debug\netcoreapp3.1\RunnerModel.pdb
+D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.AssemblyInfoInputs.cache
+D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.AssemblyInfo.cs
+D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.csproj.CoreCompileInputs.cache
+D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.dll
+D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.pdb

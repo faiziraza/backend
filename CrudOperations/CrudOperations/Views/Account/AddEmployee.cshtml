@@ -1,0 +1,29 @@
+﻿@model RunnerModel.ModelView.EmpModel
+@{
+    ViewData["Title"] = "AddEmployee";
+}
+
+<h1>AddEmployee</h1>
+<div>
+    <form asp-action="CreateEmployee" method="post">
+        <div>
+            <label>Name</label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label>Email</label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label>Mobile</label>
+            <input asp-for="mobile" />
+            <span asp-validation-for="mobile"></span>
+        </div>
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    </form>
+
+</div>

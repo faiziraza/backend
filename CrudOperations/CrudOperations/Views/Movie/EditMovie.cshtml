@@ -1,0 +1,56 @@
+﻿@model RunnerModel.ModelView.UserView
+@{
+    ViewData["Title"] = "EditMovie";
+}
+
+<h1>EditMovie</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateMovie" method="post">
+            <div class="form-group">
+                <label>Title</label>
+                <input asp-for="Title" class="form-control" placeholder="title" />
+            </div>
+            <div class="form-group">
+                <div>
+                    <label>Type</label>
+                    <div>
+                        Fiction <input type="radio" asp-for="Type" value="Fiction" />
+                        NonFiction<input type="radio" asp-for="Type" value="Non Fiction" />
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div>
+                    <label>Geners</label>
+                    <div>
+                        Action <input type="checkbox" asp-for="Generes" name="GnenersList" value="Action" />
+                        Drama<input type="checkbox" asp-for="Generes" name="GnenersList" value="Drama" />
+                        Thrill<input type="checkbox" asp-for="Generes" name="GenersList" value="Thrill" />
+                        Advanture<input type="checkbox" asp-for="Generes" name="GenersList" value="Advnture" />
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div>
+                    <label> Age</label>
+                    <select asp-for="MinimumAge" class="form-control">
+
+                        <option Age="15">15</option>
+                        <option Age="25">25</option>
+                        <option Age="50">50</option>
+                        <option Age="65">65</option>
+                    </select>
+                </div>
+
+            </div>
+            <div>
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

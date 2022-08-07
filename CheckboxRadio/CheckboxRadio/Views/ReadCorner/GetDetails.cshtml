@@ -1,0 +1,44 @@
+﻿@model List<DAL.DataModel.Book> 
+@{
+    ViewData["Title"] = "GetDetails";
+}
+
+<h1>GetDetails</h1>
+<div>
+    <div>
+        <table class="table">
+            <tr>
+                <th>Title</th>
+                <th>Geners</th>
+                <th>Type</th>
+                <th>MinimumAge</th>
+                <th>Action</th>
+
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Title 
+                    </td>
+                    <td>
+                        @item.Generes
+                    </td>
+                    <td>
+                        @item.Type
+                    </td>
+                    <td>
+                        @item.MinimumAge
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "EditDetail", new {id=item.id})
+                        @Html.ActionLink("Delete", "Delete", new {id=item.id})
+                    </td>
+                </tr>
+                
+                
+            }
+
+        </table>
+    </div>
+</div>

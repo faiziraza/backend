@@ -1,0 +1,10 @@
+D:\.net core\CrudOperation\Runner.Model\bin\Debug\netcoreapp3.1\Runner.Model.deps.json
+D:\.net core\CrudOperation\Runner.Model\bin\Debug\netcoreapp3.1\Runner.Model.dll
+D:\.net core\CrudOperation\Runner.Model\bin\Debug\netcoreapp3.1\Runner.Model.pdb
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.AssemblyInfoInputs.cache
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.AssemblyInfo.cs
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.csproj.CoreCompileInputs.cache
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.dll
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.pdb
+D:\.net core\CrudOperation\Runner.Model\obj\Debug\netcoreapp3.1\Runner.Model.csproj.AssemblyReference.cache

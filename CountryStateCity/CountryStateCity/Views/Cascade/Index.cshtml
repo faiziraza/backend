@@ -1,0 +1,114 @@
+﻿@model CountryStateCity.ModelView.UserViews
+@{
+    ViewData["Title"] = "Index";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<h1>Index</h1>
+<div>
+    <select id="Country" name="Country" >
+        <option>Select Country</option>
+    </select>
+</div><br />
+<div>
+    <select id="State" name="GetState">
+        <option>Select State</option>
+    </select>
+</div><br />
+<div>
+   <select id="City" name="GetCity">
+       <option>
+           Select City
+       </option>
+   </select>
+    
+</div><br />
+<div>
+    <input type="submit" value="Save">
+</div>
+
+
+
+    <script>
+        $(document).ready(function () {
+            GetCountry();
+            $("#Country").change(function () {
+                var id = $(this).val();
+                $("#State").empty();
+                $("#State").append();
+                $.ajax({
+                    url: "/Cascade/GetState?countryId=" + id,
+                        success: function (result) {
+                            $.each(result.states, function (i, data) {
+                                $("#State").append('<option value=' + data.stId + '>' + data.stateName + '</option>')
+                            }
+                        )}
+                });
+            });
+
+        });
+        $("#State").change(function () {
+            var id = $(this).val();
+            $("#City").empty();
+            $("#City").append();
+            $.ajax({
+                url: "/Cascade/GetCity?StateId=" + id,
+                success: function (Response) {
+                    $.each(Response.cities, function (i, data) {
+                        $("#City").append('<option value=' + data.ctId + '>' + data.cityName + '</option>')
+                    }
+                    );
+                }
+            });
+        });
+
+            function GetCountry() {
+                $.ajax({
+                    url: "/Cascade/GetCountry",
+                    success: function (Result) {
+                        $.each(Result.countries, function (i, data) {
+                            $("#Country").append('<option value=' + data.cntId + '>' + data.countryname + '</option>')
+                        }
+
+                    )}
+                })
+            }
+
+        //    $.ajax({
+        //        url: "/Cascade/GetCountry",
+        //        type: "Get",
+        //        dataType: "Json",
+        //        success: function (data) {
+        //            var x = ""
+        //            for (i = 0; i <= data.countries.length- 1; i++) {
+        //                x += '<option value ="' + data.countries[i].cntId + '">' + data.countries[i].countryname + '</option>'
+        //            }
+        //            $("#Country").html(x)
+        //        },
+        //        error: function () {
+        //            alert("Error")
+        //        }
+        //    });
+        //})
+        //function GetState() {
+        //    var CountryId = $("Country").val()
+        //    $.ajax({
+        //        url: "/Cascade/GetState",
+        //        type: "Get",
+        //        dataType: "Json",
+        //        success: function (response) {
+        //            var y = ""
+        //            for (i = 0; i <= response.state.length - 1; i++) {
+        //                y += '<option value= "' + response.states[i].st_id + '">' + response.states[i].stateName+'</option>'
+        //            }
+        //            $.ajax("#State").html(y)
+        //        },
+        //        error: function () {
+        //            alert("Error")
+        //       }
+        //    })
+        
+
+
+    </script>
+

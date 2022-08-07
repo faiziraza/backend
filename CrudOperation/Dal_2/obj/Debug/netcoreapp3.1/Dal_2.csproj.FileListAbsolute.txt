@@ -1,0 +1,16 @@
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Dal_2.deps.json
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Dal_2.runtimeconfig.json
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Dal_2.runtimeconfig.dev.json
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Dal_2.dll
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Dal_2.pdb
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Runner.Model.dll
+D:\.net core\CrudOperation\Dal_2\bin\Debug\netcoreapp3.1\Runner.Model.pdb
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.csproj.AssemblyReference.cache
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.AssemblyInfoInputs.cache
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.AssemblyInfo.cs
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.csproj.CoreCompileInputs.cache
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.csproj.CopyComplete
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.dll
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.pdb
+D:\.net core\CrudOperation\Dal_2\obj\Debug\netcoreapp3.1\Dal_2.genruntimeconfig.cache

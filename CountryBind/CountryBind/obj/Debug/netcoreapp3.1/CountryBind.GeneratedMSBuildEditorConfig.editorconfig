@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CountryBind
+build_property.ProjectDir = D:\.net core\CountryBind\CountryBind\

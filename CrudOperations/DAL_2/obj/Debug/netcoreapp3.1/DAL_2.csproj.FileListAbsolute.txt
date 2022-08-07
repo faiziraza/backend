@@ -1,0 +1,10 @@
+D:\.net core\CrudOperations\DAL_2\bin\Debug\netcoreapp3.1\DAL_2.deps.json
+D:\.net core\CrudOperations\DAL_2\bin\Debug\netcoreapp3.1\DAL_2.dll
+D:\.net core\CrudOperations\DAL_2\bin\Debug\netcoreapp3.1\DAL_2.pdb
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.csproj.AssemblyReference.cache
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.AssemblyInfoInputs.cache
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.AssemblyInfo.cs
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.csproj.CoreCompileInputs.cache
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.dll
+D:\.net core\CrudOperations\DAL_2\obj\Debug\netcoreapp3.1\DAL_2.pdb

@@ -1,0 +1,50 @@
+﻿@model RunnerModel.ModelView.UserView
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="Title" class="custom-control-label"></label>
+                <input asp-for="Title" class="form-control" />
+            </div>
+            <div class="form-group">
+                <div>
+                    <label asp-for="Generes" class="custom-control-label"></label>
+                    <div>
+                        Action <input type="checkbox" name="GeneresList" value="Action" />
+                        Thriller  <input type="checkbox" name="GeneresList" value="Thriller" />
+                        Advanture<input type="checkbox" name="GeneresList" value="Advanture" />
+                        Drama<input type="checkbox" name="GeneresList" value=" Drama" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Type "class=" custom-control-label"></label>
+                        <div>
+                            Fiction<input type="radio" asp-for="Type" value="Fiction" />
+                            Non-Fiction <input type="radio" asp-for="Type" value="Non-Fiction" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="MinimumAge" class="custom-control-label"></label>
+                            
+                            <div>
+                                <select asp-for="MinimumAge"class="form-control">
+                                    <option value="15">15></option>
+                                    <option value="25">25></option>
+                                    <option value="35">35></option>
+                                    <option value="50">50></option>
+                                    
+                                </select>
+                                <div class="form-control">
+                                    <input type="submit" value="Create"class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

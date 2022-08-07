@@ -1,0 +1,26 @@
+﻿@model RunnerModel.ModelView.EmpModel
+@{
+    ViewData["Title"] = "EditEmployee";
+}
+
+<h1>EditEmployee</h1>
+<div>
+    <form asp-action="UpdateEmp" method="post">
+        <div>
+            <label>Name</label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input asp-for="Email" />
+        </div>
+        <div>
+            <label>Mobile</label>
+            <input asp-for="mobile" />
+        </div>
+        <div>
+            <input type="submit" value="Update" />
+        </div>
+    </form>
+
+</div>

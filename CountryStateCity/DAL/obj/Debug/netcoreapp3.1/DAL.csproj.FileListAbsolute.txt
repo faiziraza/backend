@@ -1,0 +1,10 @@
+D:\.net core\CountryStateCity\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\.net core\CountryStateCity\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\.net core\CountryStateCity\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\.net core\CountryStateCity\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

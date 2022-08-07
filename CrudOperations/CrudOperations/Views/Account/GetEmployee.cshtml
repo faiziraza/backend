@@ -1,0 +1,46 @@
+﻿@model List<DAL.DataModel.Employee>
+
+@{
+    ViewData["Title"] = "GetEmployee";
+}
+
+<h1>GetEmployee</h1>
+<div>
+    <table>
+
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Action</th>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Email</td>
+                <td>@item.Name</td>
+                <td>@item.Mobile</td>
+                <td>
+                    @Html.ActionLink("Edit", "EditEmployee", new { id = item.id })
+                    @Html.ActionLink("Delete", "DeleteEmp", new { id = item.id })
+                    @*<a id="deleteCustomerModal" data-toggle="modal" asp-action="DeleteCustomer" asp-route-id="@item.Id" data-target="#modal-action-customer" class="btn btn-danger">
+                        <i class="glyphicon glyphicon-trash"></i>  Delete
+                    </a>*@
+                </td>
+              
+
+            </tr>
+        }
+    </table>
+
+    @*@using (Html.BeginForm())
+    {
+        @Html.Partial("_ModalHeader", new ModalHeader { Heading = "Delete Customer" })
+
+        <div class="modal-body form-horizontal">
+            Are you want to delete 
+        </div>
+        @Html.Partial("_ModalFooter", new ModalFooter { SubmitButtonText = "Delete" })
+    }*@
+</div>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckboxRadio", "CheckboxRadio\CheckboxRadio.csproj", "{1F94B8EF-1450-4FAB-B698-B7FC3DE3E9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{7D529F00-11B0-4A1A-B300-67B7405000FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunnerModel", "RunnerModel\RunnerModel.csproj", "{6282A382-2DD5-43C4-933C-E30E7756BEBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F94B8EF-1450-4FAB-B698-B7FC3DE3E9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F94B8EF-1450-4FAB-B698-B7FC3DE3E9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F94B8EF-1450-4FAB-B698-B7FC3DE3E9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F94B8EF-1450-4FAB-B698-B7FC3DE3E9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D529F00-11B0-4A1A-B300-67B7405000FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D529F00-11B0-4A1A-B300-67B7405000FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D529F00-11B0-4A1A-B300-67B7405000FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D529F00-11B0-4A1A-B300-67B7405000FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6282A382-2DD5-43C4-933C-E30E7756BEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6282A382-2DD5-43C4-933C-E30E7756BEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6282A382-2DD5-43C4-933C-E30E7756BEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6282A382-2DD5-43C4-933C-E30E7756BEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F42EF4D2-4C81-43F4-9CF3-9168A469A416}
+	EndGlobalSection
+EndGlobal

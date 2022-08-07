@@ -1,0 +1,16 @@
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\RunnerModel.dll
+D:\.net core\CrudOperations\DAL\bin\Debug\netcoreapp3.1\RunnerModel.pdb
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\.net core\CrudOperations\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
