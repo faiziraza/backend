@@ -7,3 +7,13 @@ D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.Assem
 D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.csproj.CoreCompileInputs.cache
 D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.dll
 D:\.net core\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.pdb
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\bin\Debug\netcoreapp3.1\RunnerModel.deps.json
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\bin\Debug\netcoreapp3.1\RunnerModel.dll
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\bin\Debug\netcoreapp3.1\RunnerModel.pdb
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.csproj.AssemblyReference.cache
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.AssemblyInfoInputs.cache
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.AssemblyInfo.cs
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.csproj.CoreCompileInputs.cache
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.dll
+C:\Users\Faizi Raza\Desktop\HomeProject\backend\CheckboxRadio\RunnerModel\obj\Debug\netcoreapp3.1\RunnerModel.pdb
